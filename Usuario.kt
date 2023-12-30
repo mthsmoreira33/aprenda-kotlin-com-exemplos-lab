@@ -1,1 +1,1 @@
-data class Usuario (val nome: String)
+data class Usuario (val nome: String, val formacoes: MutableList<Formacao> = mutableListOf())
